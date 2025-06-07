@@ -19,8 +19,8 @@ jobs:
       matrix:
         include:
           - arch: aarch64_cortex-a53
-            sdk_url_path: https://downloads.openwrt.org/releases/24.10.1/targets/qualcommax/ipq807x
-            sdk_name: -sdk-24.10.1-qualcommax-ipq807x_
+            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/bcm27xx/bcm2710
+            sdk_name: -sdk-23.05.5-bcm27xx-bcm2710_
 
     env:
       SDK_URL_PATH: ${{ matrix.sdk_url_path }}
